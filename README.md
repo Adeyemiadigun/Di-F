@@ -72,16 +72,16 @@ Our system operates as a trusted off-chain service (the "Agent" or "Matching Eng
 
     ```env
     # FEVM/Ethers Configuration
-    MATCHING_ENGINE_PRIVATE_KEY="fd708665b85276f1dfe916aa6c4bba6a2346b4ba199bbd3c8020ccc77aa2de28"
-    CONTRACT_ADDRESS="0x344944376d6ec39058e3883d62b851828139d247"
-    FEVM_RPC_URL="wss://api.calibration.node.glif.io/ws1"
+    MATCHING_ENGINE_PRIVATE_KEY="...."
+    CONTRACT_ADDRESS="...."
+    FEVM_RPC_URL="..."
 
     # AI Configuration
-    GEMINI_API_KEY="AIzaSyD1m313HdhwHQmhXC0EEV19slUeDdR3r6w"
+    GEMINI_API_KEY="..."
 
     # IPFS Configuration (for /api/pin-image endpoint)
-    PINATA_API_KEY="b6242205f4820452afbd" 
-    PINATA_SECRET_API_KEY="80e27d2221f00432763b56bad7e15e78fd34f116d43aee6ba90c3e9345a58187"
+    PINATA_API_KEY="..." 
+    PINATA_SECRET_API_KEY=".."
     ```
 
 4.  **Run the Agent:**
